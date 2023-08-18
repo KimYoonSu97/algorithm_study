@@ -6,9 +6,7 @@ function solution(s) {
     let str = string[i];
     let newStr = "";
     for (let j = 0; j < string[i].length; j++) {
-      if (j === 0) {
-        newStr += str[j].toUpperCase();
-      } else if (j % 2 === 0) {
+      if (j % 2 === 0) {
         newStr += str[j].toUpperCase();
       } else {
         newStr += str[j].toLowerCase();
