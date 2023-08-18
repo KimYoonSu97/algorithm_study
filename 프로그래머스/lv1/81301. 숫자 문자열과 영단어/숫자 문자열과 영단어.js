@@ -17,9 +17,9 @@ function solution(s) {
   } else {
     let string = s;
     for (let i = 0; i < Criteria.length; i++) {
-      if (string.includes(Criteria[i]) !== -1) {
+      
         string = string.replaceAll(Criteria[i], String(i));
-      }
+      
       answer = Number(string);
     }
   }
