@@ -10,9 +10,7 @@ function solution(n) {
     }
     return result
 }
-// 팩토리얼을 구하는 함수
 function Factorial(num) {
-    // 재귀를 통해 n*n-1... 을 구현함
     if(num > 1) return num*Factorial(num-1)
     return num
 }
